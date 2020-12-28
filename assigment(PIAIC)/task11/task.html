@@ -1,0 +1,16 @@
+        <!DOCTYPE html>
+        <html><head>
+        <title>Temperature Converter</title>
+        <script src="task.js"></script>
+    </head>
+        <body>
+        
+        <h2>Temperature Convert</h2>
+        <p>Fahrenheit  to Celsius:</p>
+        
+        <p>
+          <label>Fahrenheit</label>
+          <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+        </p>
+        <p>Celcius: <span id="outputCelcius"></span></p>
+        
